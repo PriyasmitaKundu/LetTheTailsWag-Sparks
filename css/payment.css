@@ -1,0 +1,27 @@
+body{
+    background: url("../images/img6.jpg") no-repeat center center/cover;
+    display:flex;
+    flex-direction:column;
+    padding: 3px 200px;
+    height:520px;
+    justify-content:center;
+    align-items:center;
+    
+}
+.razorpay-embed-btn{
+    position: relative;
+    margin-top: 300px;
+    margin-right: 60%;
+}
+
+@media only screen and (min-device-width: 340px) and (max-device-width: 600px){
+
+body {
+    height:340px;
+    padding:3px 28px;
+   
+}
+}
+
+
+
